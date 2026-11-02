@@ -6,7 +6,6 @@
 
 **django-admin startproject config .**
 
-
 **Next go to the config/settings.py**
 
 **And add 'rest_framework' inside the INSTALLED_APP list.**
@@ -21,4 +20,9 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'rest_framework'
 ]
+```
+
+
+```Shell
+pip freeze > requirements.txt
 ```
